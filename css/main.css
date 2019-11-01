@@ -3,7 +3,7 @@
 
 .hidden
 {
-	display: none;	
+	display: none;
 }
 
 * {
@@ -29,7 +29,7 @@ body {
 	font-size: 16px;
 	font-weight: bold;
 	padding: 10px;
-	margin: 0px 5px 10px 10px; /* trbl */
+	margin: 0px 5px 20px 10px; /* trbl */
 	font-family: 'Rubik', sans-serif;
 	text-align: center;
 	text-transform: uppercase;
@@ -45,7 +45,8 @@ body {
 }
 
 .img {
-	padding: 0px;
+	padding-top: : 0px;
+	margin-top: 40px;
 	/* padding-left: 100px; */
 	margin-left: 100px;
 }
@@ -56,6 +57,7 @@ body {
 	flex-direction: row;
 	flex-wrap: wrap;
 	width: 400px;
+	margin-top: 40px;
 	align-content: flex-start;
 }
 
@@ -83,9 +85,4 @@ body {
 	flex-direction: column;
 }
 
-#blur {
-	padding: 0px;
-	margin-left: 100px;
-	filter: blur(20px);
-}
 
